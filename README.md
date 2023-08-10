@@ -18,17 +18,17 @@ Jest is an open-source testing framework built on JavaScript, designed majorly t
 6. Configure Typescript
    Create a tsconfig.json file in the root of your project to configure TypeScript:
 
-				 {
-		        "compilerOptions": {
-		          "target": "ES6",
-		          "module": "CommonJS",
-		          "outDir": "./dist",
-		          "strict": true,
-		          "esModuleInterop": true
-		        },
-		        "include": ["src/**/*.ts"],
-		        "exclude": ["node_modules"]
-		      }
+			{
+				"compilerOptions": {
+					"target": "ES6",
+					"module": "CommonJS",
+					"outDir": "./dist",
+					"strict": true,
+					"esModuleInterop": true
+				},
+				"include": ["src/**/*.ts"],
+				"exclude": ["node_modules"]
+			}
    
     Make sure to adjust the "outDir" and "include" paths according to your project structure.
 
