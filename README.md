@@ -75,4 +75,9 @@ Jest is an open-source testing framework built on JavaScript, designed majorly t
 
 	 		npm test
 
+15. Running individual test files -
+    	Run each test file for example for api.ts that has it's test file as api.test.ts. You can target the test file directly by using
+
+			npm test api.test.ts
+
 
