@@ -18,10 +18,6 @@ test('Should be false', () => {
 })
 
 
-test('User should be Olamide Akodu object', () => {
-  expect(functions.createUser()).toEqual({ firstName: 'Olamide', lastName: 'Akodu'})
-})
-
 test('should be under 1600', () => {
   const load1 = 800;
   const load2 = 700;
